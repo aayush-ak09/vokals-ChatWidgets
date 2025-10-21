@@ -1,0 +1,9 @@
+<!-- Floating chat button -->
+<div class="chat-button" (click)="toggleChat()">
+  💬
+</div>
+
+<!-- Chat window -->
+<div class="chat-window" *ngIf="isChatOpen">
+    <app-chat-page [fullScreen]="false" (toggleChatEvent)="toggleChat()" [botName]="'ChatBot'"></app-chat-page>
+</div>
