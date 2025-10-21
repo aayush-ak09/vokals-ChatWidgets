@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Bubbledrop } from './chatWidgets/bubbledrop/bubbledrop';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Bubbledrop],
+  imports: [RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

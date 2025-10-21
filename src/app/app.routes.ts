@@ -4,6 +4,6 @@ import { Bubbledrop } from './chatWidgets/bubbledrop/bubbledrop';
 
 export const routes: Routes = [
   { path: 'chat', component: ChatPageComponent },
-  { path: 'bot', component: Bubbledrop },
+  { path: '', component: Bubbledrop },
   { path: '**', redirectTo: '' }
 ];
